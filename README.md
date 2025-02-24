@@ -24,10 +24,7 @@ Simply put: Rust. While we love NodeJS and the tool by lmammino, the performance
 # Installation
 The easiest way to install this is to run the script (`Rust` & `Cargo` required):
 ```bash
-```
-
-For Docker:
-```bash
+curl -sSL https://github.com/0xnoid/jwt-crackng/releases/download/v0.2.0/install.sh | bash
 ```
 
 # Usage

@@ -4,7 +4,7 @@ use std::fs;
 use anyhow::{Result, anyhow};
 
 #[derive(Parser, Debug)]
-#[clap(name = "jwt-crackng", about = "Advanced JWT cracking tool")]
+#[clap(name = "jwt-crackng", about = "jwt-crackng: Bruteforce HMACSHA JSON Web Token Secrets")]
 pub struct Args {
     #[clap(short, long)]
     pub token: String,

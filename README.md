@@ -22,9 +22,23 @@ Simply put: Rust. While we love NodeJS and the tool by lmammino, the performance
 - Container versions
 
 # Installation
-The easiest way to install this is to run the script (`Rust` & `Cargo` required):
+The easiest way to install this is to run the script:
 ```bash
 curl -sSL https://github.com/0xnoid/jwt-crackng/releases/download/v0.2.0/install.sh | bash
+```
+<sub>Script Info: Uses cURL to download the precompiled release, makes it executable & adds it to your PATH</sub>
+
+### Without Script:
+```bash
+wget https://github.com/0xnoid/jwt-crackng/releases/download/v0.2.0/jwt-crackng && \
+chmod +x jwt-crackng && \
+./jwt-crackng --help
+```
+
+### Compile Yourself
+```bash
+git clone https://github.com/0xnoid/jwt-crackng && cd jwt-crackng \
+cargo build --release
 ```
 
 # Usage
